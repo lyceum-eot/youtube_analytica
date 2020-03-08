@@ -3,7 +3,7 @@ import pandas as pd
 yt_data = pd.read_csv("youtube_channels_list.csv")
 
 
-for i in range(len(data["entries"])):
+for i in range(len(yt_data["entries"])):
     for item in data["entries"][i]:
         df["uploader"] = item["uploader"]
         df["license"] = item["license"]
