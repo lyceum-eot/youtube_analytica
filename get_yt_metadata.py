@@ -1,5 +1,3 @@
-#from get_channels import get_yt_channels
-#from get_yt_data import get_data
 import youtube_dl
 
 import pandas as pd
